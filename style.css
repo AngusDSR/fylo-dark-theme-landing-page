@@ -264,21 +264,32 @@ footer {
     width: 25rem;
     margin-bottom: 100px;
 }
-/* .parent-contact-list {
-} */
 .contact-lists {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    font-size: 16px;
-
-    border: dashed green 0.5px;
 }
-
 .contact-lists > * {
-    color: red;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-align:start;
+}
+.contact-icon-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+}
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.contact-icon-txt {
+    margin: 0;
+    padding: 0;
 }
 
 .attribution { font-size: 11px; text-align: center; }
